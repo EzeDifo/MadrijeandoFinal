@@ -10,5 +10,5 @@
         android:id="@+id/txtred"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Red de madrijim" />
+        android:text="@string/red_de_madrijim" />
 </androidx.constraintlayout.widget.ConstraintLayout>

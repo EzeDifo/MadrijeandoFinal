@@ -10,5 +10,5 @@
         android:id="@+id/txtPlanificaciones"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Mire las planificaciones" />
+        android:text="@string/mire_las_planificaciones" />
 </androidx.constraintlayout.widget.ConstraintLayout>

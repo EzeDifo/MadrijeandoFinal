@@ -14,7 +14,7 @@ import java.util.ArrayList;
 
 public class AdapterDatos extends RecyclerView.Adapter<AdapterDatos.ViewHolderDatos> {
 
-     ArrayList<String> ListDatos;
+     private ArrayList<String> ListDatos;
 
     public AdapterDatos(ArrayList<String> listDatos) {
         ListDatos = listDatos;

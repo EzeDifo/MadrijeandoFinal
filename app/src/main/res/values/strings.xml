@@ -6,4 +6,18 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nur_rohman">Nur Rohman</string>
+    <string name="_5ic">5IC</string>
+    <string name="_6_seis">6 (seis)</string>
+    <string name="mensage">Mensage</string>
+    <string name="mire_las_planificaciones">Mire las planificaciones</string>
+    <string name="agenda_los_proximos_actos">Agenda los proximos actos</string>
+    <string name="sube_tus_materiales">Sube tus materiales</string>
+    <string name="sube_tus_planificaciones">Sube tus planificaciones</string>
+    <string name="red_de_madrijim">Red de madrijim</string>
+    <string name="recicler_view">Recicler View</string>
+    <string name="juan">Juan</string>
+    <string name="ezequiel_di_fonzo">Ezequiel Di Fonzo</string>
+    <string name="ruleta">Ruleta</string>
+    <string name="para_tres_a_os">Para tres años</string>
 </resources>

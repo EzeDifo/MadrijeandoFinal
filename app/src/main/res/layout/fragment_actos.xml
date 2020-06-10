@@ -10,6 +10,6 @@
         android:id="@+id/txtActos"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Agenda los proximos actos" />
+        android:text="@string/agenda_los_proximos_actos" />
 
 </FrameLayout>
