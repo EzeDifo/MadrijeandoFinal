@@ -20,4 +20,6 @@
     <string name="ezequiel_di_fonzo">Ezequiel Di Fonzo</string>
     <string name="ruleta">Ruleta</string>
     <string name="para_tres_a_os">Para tres años</string>
+    <string name="dado">Dado</string>
+    <string name="descripcion">Descripcion</string>
 </resources>
