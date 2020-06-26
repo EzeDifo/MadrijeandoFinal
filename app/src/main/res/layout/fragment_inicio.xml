@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragment_inicio">
+    tools:context=".ui.Subir.FragmentInicio">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/txtSubir"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="@string/sube_tus_planificaciones" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/sube_tus_materiales" />
-</FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

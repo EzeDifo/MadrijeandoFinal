@@ -23,14 +23,14 @@
         android:label="Red de madrijim"
         tools:layout="@layout/fragment_notifications" />
     <fragment
-        android:id="@+id/navegation_actos"
-        android:name="com.example.proyectofinalmadrijeando.ui.notifications.NotificationsFragment"
+        android:id="@+id/navigation_actos"
+        android:name="com.example.proyectofinalmadrijeando.ui.Actos.FragmentActos"
         android:label="Actos"
         tools:layout="@layout/fragment_actos"/>
 
     <fragment
-        android:id="@+id/navegation_inicio"
-        android:name="com.example.proyectofinalmadrijeando.ui.notifications.NotificationsFragment"
+        android:id="@+id/navigation_subir"
+        android:name="com.example.proyectofinalmadrijeando.ui.Subir.FragmentInicio"
         android:label="Subir"
         tools:layout="@layout/fragment_inicio"/>
 </navigation>
