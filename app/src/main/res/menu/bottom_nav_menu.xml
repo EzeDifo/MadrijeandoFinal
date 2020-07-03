@@ -11,12 +11,12 @@
         android:icon="@drawable/plani"
         android:title="Planificaciones" />
     <item
-        android:id="@+id/fragment_inicio"
+        android:id="@+id/navigation_subir"
         android:icon="@drawable/subir"
-        android:title="subir"/>
+        android:title="Subir"/>
 
     <item
-        android:id="@+id/fragment_actos"
+        android:id="@+id/navigation_actos"
         android:icon="@drawable/gente"
         android:title="Actos" />
 
