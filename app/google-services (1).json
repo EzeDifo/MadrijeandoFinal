@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "605536657381",
+    "firebase_url": "https://madrijeando-aea64.firebaseio.com",
+    "project_id": "madrijeando-aea64",
+    "storage_bucket": "madrijeando-aea64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605536657381:android:55dd7f302a622c03c5190c",
+        "android_client_info": {
+          "package_name": "com.example.madrijeando"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605536657381-s3jfhjlf3cg5gooldhi45jchph4j7hq2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.madrijeando",
+            "certificate_hash": "b2f54405d1b5ed6302ab8bbe990973a15140ebd4"
+          }
+        },
+        {
+          "client_id": "605536657381-nvmjg87stuin30up1f50ib61mr1ddo7l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZa21-oUT_CffbPUr4fkeBoBP5ygwTwkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "605536657381-nvmjg87stuin30up1f50ib61mr1ddo7l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
