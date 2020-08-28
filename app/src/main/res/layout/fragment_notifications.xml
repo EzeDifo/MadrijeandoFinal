@@ -10,5 +10,38 @@
         android:id="@+id/txtred"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/red_de_madrijim" />
+        android:text="@string/red_de_madrijim"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <EditText
+        android:id="@+id/edText"
+        android:layout_width="226dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="editText"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <Button
+        android:id="@+id/btnNoti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="@string/_5ic"
+        android:text="TEST"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="270dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <TextView
+        android:id="@+id/TxtNoti"
+        android:layout_width="343dp"
+        android:layout_height="173dp"
+        android:text="TextViewNoti"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="172dp"
+        tools:ignore="MissingConstraints" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

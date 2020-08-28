@@ -1,6 +1,7 @@
 package com.example.proyectofinalmadrijeando;
 
 import android.os.Bundle;
+import android.util.Log;
 
 import com.example.proyectofinalmadrijeando.ui.AdapterDatos;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -23,17 +24,18 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //
+        Log.d("Eze", "Navegando");
         BottomNavigationView navView = findViewById(R.id.nav_view);
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.navigation_home, R.id.navigation_dashboard, R.id.navigation_notifications,R.id.navigation_subir,R.id.navigation_actos)
+                R.id.navigation_home, R.id.navigation_dashboard, R.layout.fragment_notifications,R.id.navigation_subir,R.id.navigation_actos)
                 .build();
 
-         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
+        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(navView, navController);
 
- }
+    }
 
 }
